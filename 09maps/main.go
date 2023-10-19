@@ -20,6 +20,10 @@ func main() {
 
 	fmt.Println(courses)
 
+	/**
+	delete a key from map
+	*/
+	delete(courses, "JS")
 	for _, value := range courses {
 		fmt.Printf("Value is %v\n", value)
 	}
